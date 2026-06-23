@@ -293,8 +293,132 @@ export default function HomePage({ params }: { params: any }) {
         </div>
       </section>
 
+      {/* FIFA World Cup & Live Sports Banner Section */}
+      <section className="relative py-20 bg-gradient-to-br from-[#0E0E17] via-[#09090E] to-dark-bg border-t border-white/5">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(212,175,55,0.03),transparent_50%)] pointer-events-none" />
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            {/* Left side info */}
+            <div className="lg:col-span-7 flex flex-col gap-6 text-center lg:text-start items-center lg:items-start">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-xs text-emerald-500 font-bold uppercase tracking-wider animate-pulse">
+                <Trophy className="h-3.5 w-3.5" /> Streaming 2026 FIFA World Cup Live
+              </span>
+              <h2 className="font-display font-extrabold text-3xl sm:text-4xl md:text-5xl text-white tracking-tight leading-tight">
+                Don't Miss a Single Goal: <br />
+                <span className="text-gold">FIFA World Cup</span> in 4K UHD & 60FPS
+              </h2>
+              <p className="text-gray-400 text-sm sm:text-base leading-relaxed max-w-xl">
+                Get full access to all matches, qualifiers, and friendly fixtures of the FIFA World Cup. Our high-bandwidth streaming infrastructure guarantees a latency-free, smooth live stream experience.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mt-2">
+                <div className="flex items-center gap-3 bg-white/5 border border-white/5 p-4 rounded-xl">
+                  <Check className="h-5 w-5 text-gold shrink-0" />
+                  <div className="text-start">
+                    <h4 className="text-white text-sm font-bold">Ultra-Smooth 60FPS</h4>
+                    <p className="text-gray-400 text-xs">High frame-rate prevents lag during fast gameplay.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-3 bg-white/5 border border-white/5 p-4 rounded-xl">
+                  <Check className="h-5 w-5 text-gold shrink-0" />
+                  <div className="text-start">
+                    <h4 className="text-white text-sm font-bold">Dual Feed Backup</h4>
+                    <p className="text-gray-400 text-xs">Redundant streams prevent interruptions mid-match.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-3 bg-white/5 border border-white/5 p-4 rounded-xl">
+                  <Check className="h-5 w-5 text-gold shrink-0" />
+                  <div className="text-start">
+                    <h4 className="text-white text-sm font-bold">Multi-Audio Commentary</h4>
+                    <p className="text-gray-400 text-xs">Choose English, Spanish, French, or Arabic audio.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-center gap-3 bg-white/5 border border-white/5 p-4 rounded-xl">
+                  <Check className="h-5 w-5 text-gold shrink-0" />
+                  <div className="text-start">
+                    <h4 className="text-white text-sm font-bold">EPG Live Schedule</h4>
+                    <p className="text-gray-400 text-xs">Sync calendars with kickoff times automatically.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto mt-4">
+                <a
+                  href={whatsappUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 py-4 rounded-xl bg-gradient-to-r from-gold to-yellow-600 hover:from-gold-hover hover:to-yellow-500 text-dark-bg text-sm font-extrabold text-center shadow-lg shadow-gold/25 hover:shadow-gold/35 transition-all"
+                >
+                  Get Instant World Cup Pass
+                </a>
+                <Link
+                  href="/channels"
+                  className="px-8 py-4 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 text-white text-sm font-extrabold text-center transition-all"
+                >
+                  View All Sports Channels
+                </Link>
+              </div>
+            </div>
+
+            {/* Right side match schedules / visual display */}
+            <div className="lg:col-span-5 flex flex-col gap-4">
+              <div className="glass-panel border border-gold/20 p-6 rounded-3xl bg-[#12121E]/90 relative overflow-hidden">
+                <div className="absolute top-0 right-0 h-28 w-28 bg-gold/5 blur-2xl rounded-full" />
+                <h3 className="font-display font-bold text-lg text-white mb-4 flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-gold animate-ping" />
+                  <span>FIFA World Cup Qualifiers (Live Updates)</span>
+                </h3>
+
+                <div className="flex flex-col gap-3">
+                  <div className="bg-white/5 border border-white/5 p-3.5 rounded-2xl flex items-center justify-between">
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-white text-xs font-bold">Brazil vs Argentina</span>
+                      <span className="text-gray-400 text-[10px]">CONMEBOL Qualifiers</span>
+                    </div>
+                    <span className="text-[10px] font-extrabold bg-gold/15 text-gold px-2.5 py-1 rounded-md border border-gold/10 uppercase tracking-wide">
+                      Live • 72' (1 - 0)
+                    </span>
+                  </div>
+
+                  <div className="bg-white/5 border border-white/5 p-3.5 rounded-2xl flex items-center justify-between">
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-white text-xs font-bold">France vs England</span>
+                      <span className="text-gray-400 text-[10px]">UEFA Nations League</span>
+                    </div>
+                    <span className="text-[10px] font-extrabold bg-white/5 text-gray-400 px-2.5 py-1 rounded-md uppercase tracking-wide">
+                      Today • 20:45 CET
+                    </span>
+                  </div>
+
+                  <div className="bg-white/5 border border-white/5 p-3.5 rounded-2xl flex items-center justify-between">
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-white text-xs font-bold">USA vs Mexico</span>
+                      <span className="text-gray-400 text-[10px]">CONCACAF Qualifiers</span>
+                    </div>
+                    <span className="text-[10px] font-extrabold bg-white/5 text-gray-400 px-2.5 py-1 rounded-md uppercase tracking-wide">
+                      Tomorrow • 18:30 EST
+                    </span>
+                  </div>
+                </div>
+
+                <div className="mt-4 pt-4 border-t border-white/5 text-center">
+                  <span className="text-xs text-gray-400">
+                    Also includes <strong>ESPN, Sky Sports, TNT Sports, and beIN Sports</strong>.
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Plans Section */}
-      <section className="relative py-20 lg:py-28">
+      <section className="relative py-20 lg:py-28 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center flex flex-col items-center gap-4 mb-16">
             <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white tracking-tight">

@@ -98,7 +98,7 @@ export default async function LocaleLayout({
             __html: `
               (function() {
                 try {
-                  if (localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches)) {
+                  if (localStorage.theme === 'light') {
                     document.documentElement.classList.add('light');
                   } else {
                     document.documentElement.classList.remove('light');
