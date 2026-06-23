@@ -1,0 +1,96 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "howItWorks": "How It Works",
+    "devices": "Devices",
+    "channels": "Channels",
+    "countries": "Regions",
+    "about": "About Us",
+    "contact": "Contact",
+    "support": "Support",
+    "viewPlans": "View Plans"
+  },
+  "Hero": {
+    "headline": "Premium Global IPTV Subscription Services",
+    "subhead": "Access over 18,000+ stable international channels, live sports, and video on demand in stunning HD/4K. Stream reliably on all your devices.",
+    "ctaPlans": "View Plans",
+    "ctaWorks": "How It Works"
+  },
+  "TrustBar": {
+    "countries": "Countries Covered",
+    "languages": "Languages Supported",
+    "uptime": "Uptime Guarantee",
+    "support": "Active Support"
+  },
+  "WhyUs": {
+    "title": "Why Choose LiveTVServices?",
+    "subtitle": "We deliver a premium entertainment experience without compromises.",
+    "card1Title": "Global Coverage",
+    "card1Desc": "Stream channels from North America, Europe, Asia, Latin America, and the Middle East.",
+    "card2Title": "Reliable Stream Stability",
+    "card2Desc": "Anti-freeze buffer tech prevents lagging during live sports broadcasts.",
+    "card3Title": "Multi-Device Sync",
+    "card3Desc": "Compatible with Fire Stick, Smart TVs, Android, iOS, MAG box, and web browsers.",
+    "card4Title": "Dedicated Support",
+    "card4Desc": "Our experienced technical team is available 24/7 on WhatsApp for setup and assistance.",
+    "card5Title": "Flexible Contracts",
+    "card5Desc": "No long-term commitments. Choose a plan that fits your schedule, cancel anytime.",
+    "card6Title": "Premium Quality",
+    "card6Desc": "Watch live programs and video on demand in Full HD and 4K resolutions."
+  },
+  "WhatsApp": {
+    "message": "Hi LiveTVServices! I would like to get information about your IPTV subscription plans."
+  },
+  "Pricing": {
+    "title": "Simple, Transparent Pricing Plans",
+    "subtitle": "Choose the tier that matches your entertainment needs. Risk-free guarantee.",
+    "monthly": "Monthly Plan",
+    "quarterly": "Quarterly Plan",
+    "yearly": "Yearly Plan",
+    "featuresTitle": "Included Features",
+    "channels": "18,000+ Premium Live Channels",
+    "vod": "80,000+ VOD Movies & TV Shows",
+    "quality": "HD, FHD & 4K Streaming Quality",
+    "buffer": "Anti-Freeze Stabilization Engine",
+    "support": "24/7 Dedicated Customer Support",
+    "devices": "Compatible with All Devices",
+    "guarantee": "7-Day Money Back Guarantee",
+    "cta": "Get Started Now",
+    "currencySymbol": "£",
+    "currencyCode": "GBP"
+  },
+  "Footer": {
+    "tagline": "Premium global entertainment subscription services. Reliable, fast, and multi-device compatible.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal & Terms",
+    "devices": "Setup Guides",
+    "copyright": "© 2026 LiveTVServices. All rights reserved."
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a question about compatibility or setup? Fill out the form or chat directly.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "message": "Your Message",
+    "submit": "Send Message",
+    "success": "Thank you! Your message has been sent successfully. We will contact you soon.",
+    "placeholderName": "John Doe",
+    "placeholderEmail": "john@example.com",
+    "placeholderMessage": "Type your message here..."
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get direct answers to common questions about our global television services.",
+    "q1": "What is LiveTVServices and how does it work?",
+    "a1": "LiveTVServices is a premium IPTV subscription that allows you to stream live television channels, movies, and TV shows over the internet. You simply purchase a plan, receive login credentials, and install our service on your device using a compatible app.",
+    "q2": "What devices are compatible with the service?",
+    "a2": "Our service is compatible with all major streaming devices. This includes Amazon Fire Stick, Smart TVs (Samsung, LG, Sony, Android TV), Android devices (phones, tablets, TV boxes), Apple devices (iPhone, iPad, Apple TV), MAG boxes, and web browsers.",
+    "q3": "Do I need a VPN to use LiveTVServices?",
+    "a3": "No, a VPN is not required to use our service. We use encrypted streaming protocols to ensure your data stays secure. However, if your local internet service provider throttles video content, using a high-quality VPN may improve streaming speed.",
+    "q4": "How many channels and movies are included?",
+    "a4": "Our plans include access to over 18,000+ live television channels and over 80,000+ Video on Demand (VOD) titles. Content categories span sports, news, general entertainment, movies, documentaries, kids programming, and international channels.",
+    "q5": "How long does setup take after purchase?",
+    "a5": "Setup is extremely fast. Once your order is processed, you will receive setup instructions via email or WhatsApp within 5 to 15 minutes. Our team can guide you step-by-step to get you up and running immediately."
+  }
+}

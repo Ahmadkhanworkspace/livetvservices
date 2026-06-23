@@ -1,0 +1,96 @@
+{
+  "Navbar": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "howItWorks": "Comment ça marche",
+    "devices": "Appareils",
+    "channels": "Chaînes",
+    "countries": "Régions",
+    "about": "À propos",
+    "contact": "Contact",
+    "support": "Support",
+    "viewPlans": "Voir les Plans"
+  },
+  "Hero": {
+    "headline": "Services d'abonnement IPTV mondiaux de qualité premium",
+    "subhead": "Accédez à plus de 18 000 chaînes internationales stables, sports en direct et VOD en HD/4K de qualité supérieure. Streaming fiable sur tous vos appareils.",
+    "ctaPlans": "Voir les Plans",
+    "ctaWorks": "Comment ça marche"
+  },
+  "TrustBar": {
+    "countries": "Pays Couverts",
+    "languages": "Langues Supportées",
+    "uptime": "Garantie de Disponibilité",
+    "support": "Support Actif"
+  },
+  "WhyUs": {
+    "title": "Pourquoi choisir LiveTVServices ?",
+    "subtitle": "Nous offrons une expérience de divertissement haut de gamme sans compromis.",
+    "card1Title": "Couverture Mondiale",
+    "card1Desc": "Regardez des chaînes d'Amérique du Nord, d'Europe, d'Asie, d'Amérique latine et du Moyen-Orient.",
+    "card2Title": "Stabilité du Flux",
+    "card2Desc": "La technologie de mise en mémoire tampon anti-gel évite les ralentissements pendant le sport en direct.",
+    "card3Title": "Synchronisation Multi-Appareils",
+    "card3Desc": "Compatible avec Fire Stick, Smart TVs, Android, iOS, les boîtiers MAG et les navigateurs web.",
+    "card4Title": "Support Dédié",
+    "card4Desc": "Notre équipe technique expérimentée est disponible 24/7 sur WhatsApp pour la configuration et l'assistance.",
+    "card5Title": "Contrats Flexibles",
+    "card5Desc": "Pas d'engagements à long terme. Choisissez une formule adaptée à votre rythme, résiliez à tout moment.",
+    "card6Title": "Qualité Premium",
+    "card6Desc": "Regardez des programmes en direct et des vidéos à la demande en résolutions Full HD et 4K."
+  },
+  "WhatsApp": {
+    "message": "Bonjour LiveTVServices ! Je souhaite obtenir des informations sur vos abonnements IPTV."
+  },
+  "Pricing": {
+    "title": "Des plans tarifaires simples et transparentes",
+    "subtitle": "Choisissez la formule qui répond à vos besoins de divertissement. Garantie sans risque.",
+    "monthly": "Plan Mensuel",
+    "quarterly": "Plan Trimestriel",
+    "yearly": "Plan Annuel",
+    "featuresTitle": "Caractéristiques incluses",
+    "channels": "Plus de 18 000 chaînes premium en direct",
+    "vod": "Plus de 80 000 films et séries VOD",
+    "quality": "Qualité de streaming HD, FHD & 4K",
+    "buffer": "Moteur de stabilisation anti-gel",
+    "support": "Support client dédié 24h/24 et 7j/7",
+    "devices": "Compatible avec tous les appareils",
+    "guarantee": "Garantie de remboursement de 7 jours",
+    "cta": "Commencez dès maintenant",
+    "currencySymbol": "€",
+    "currencyCode": "EUR"
+  },
+  "Footer": {
+    "tagline": "Services d'abonnement de divertissement premium mondial. Fiable, rapide et compatible multi-appareils.",
+    "quickLinks": "Liens rapides",
+    "legal": "Mentions légales & Conditions",
+    "devices": "Guides de configuration",
+    "copyright": "© 2026 LiveTVServices. Tous droits réservés."
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question sur la compatibilité ou la configuration ? Remplissez le formulaire ou discutez directement.",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "message": "Votre message",
+    "submit": "Envoyer le message",
+    "success": "Merci ! Votre message a été envoyé avec succès. Nous vous contacterons bientôt.",
+    "placeholderName": "Jean Dupont",
+    "placeholderEmail": "jean@example.com",
+    "placeholderMessage": "Saisissez votre message ici..."
+  },
+  "FAQ": {
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses directes aux questions courantes sur nos services de télévision mondiale.",
+    "q1": "Qu'est-ce que LiveTVServices et comment ça marche ?",
+    "a1": "LiveTVServices est un abonnement IPTV premium qui vous permet de regarder des chaînes de télévision en direct, des films et des séries télévisées via Internet. Il vous suffit d'acheter un forfait, de recevoir vos identifiants de connexion et d'installer notre service sur votre appareil à l'aide d'une application compatible.",
+    "q2": "Quels appareils sont compatibles avec le service ?",
+    "a2": "Notre service est compatible avec tous les principaux appareils de streaming. Cela comprend l'Amazon Fire Stick, les Smart TVs (Samsung, LG, Sony, Android TV), les appareils Android (téléphones, tablettes, box TV), les appareils Apple (iPhone, iPad, Apple TV), les boîtiers MAG et les navigateurs web.",
+    "q3": "Ai-je besoin d'un VPN pour utiliser LiveTVServices ?",
+    "a3": "Non, un VPN n'est pas obligatoire pour utiliser notre service. Nous utilisons des protocoles de diffusion cryptés pour garantir la sécurité de vos données. Cependant, si votre fournisseur d'accès Internet local restreint le contenu vidéo, l'utilisation d'un VPN de qualité peut améliorer la vitesse de streaming.",
+    "q4": "Combien de chaînes et de films sont inclus ?",
+    "a4": "Nos abonnements incluent l'accès à plus de 18 000 chaînes de télévision en direct et à plus de 80 000 titres de vidéo à la demande (VOD). Les catégories de contenu couvrent le sport, l'information, le divertissement général, le cinéma, les documentaires, la jeunesse et les chaînes internationales.",
+    "q5": "Combien de temps prend la configuration après l'achat ?",
+    "a5": "La configuration est extrêmement rapide. Une fois votre commande traitée, vous recevrez les instructions d'installation par e-mail ou WhatsApp dans un délai de 5 à 15 minutes. Notre équipe peut vous guider étape par étape pour démarrer immédiatement."
+  }
+}

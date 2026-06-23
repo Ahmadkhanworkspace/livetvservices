@@ -1,0 +1,96 @@
+{
+  "Navbar": {
+    "home": "Início",
+    "pricing": "Preços",
+    "howItWorks": "Como Funciona",
+    "devices": "Dispositivos",
+    "channels": "Canais",
+    "countries": "Regiões",
+    "about": "Sobre Nós",
+    "contact": "Contacto",
+    "support": "Suporte",
+    "viewPlans": "Ver Planos"
+  },
+  "Hero": {
+    "headline": "Serviços de subscrição IPTV global premium",
+    "subhead": "Aceda a mais de 18.000 canais internacionais estáveis, desporto ao vivo e VOD em HD/4K de qualidade superior. Streaming fiável em todos os seus dispositivos.",
+    "ctaPlans": "Ver Planos",
+    "ctaWorks": "Como Funciona"
+  },
+  "TrustBar": {
+    "countries": "Países Cobertos",
+    "languages": "Idiomas Suportados",
+    "uptime": "Garantia de Uptime",
+    "support": "Suporte Ativo"
+  },
+  "WhyUs": {
+    "title": "Porquê Escolher a LiveTVServices?",
+    "subtitle": "Oferecemos uma experiência de entretenimento de primeira classe sem compromissos.",
+    "card1Title": "Cobertura Global",
+    "card1Desc": "Transmita canais da América do Norte, Europa, Ásia, América Latina e Médio Oriente.",
+    "card2Title": "Estabilidade de Streaming",
+    "card2Desc": "Tecnologia de buffer anti-congelamento evita paragens durante transmissões desportivas ao vivo.",
+    "card3Title": "Sincronização Multi-Dispositivo",
+    "card3Desc": "Compatível com Fire Stick, Smart TVs, Android, iOS, boxes MAG e navegadores web.",
+    "card4Title": "Suporte Dedicado",
+    "card4Desc": "A nossa equipa técnica experiente está disponível 24/7 no WhatsApp para instalação e ajuda.",
+    "card5Title": "Contratos Flexíveis",
+    "card5Desc": "Sem compromissos a longo prazo. Escolha o plano ideal para si, cancele quando quiser.",
+    "card6Title": "Qualidade Premium",
+    "card6Desc": "Assista a programas ao vivo e vídeo sob procura em resoluções Full HD e 4K."
+  },
+  "WhatsApp": {
+    "message": "Olá LiveTVServices! Gostaria de obter informações sobre os seus planos de subscrição IPTV."
+  },
+  "Pricing": {
+    "title": "Planos de Preços Simples e Transparentes",
+    "subtitle": "Escolha o plano ideal para as suas necessidades. Garantia sem riscos.",
+    "monthly": "Plano Mensal",
+    "quarterly": "Plano Trimestral",
+    "yearly": "Plano Anual",
+    "featuresTitle": "Funcionalidades Incluídas",
+    "channels": "Mais de 18.000 canais em direto premium",
+    "vod": "Mais de 80.000 filmes e séries VOD",
+    "quality": "Qualidade de streaming HD, FHD e 4K",
+    "buffer": "Motor de estabilização anti-congelamento",
+    "support": "Apoio ao cliente dedicado 24/7",
+    "devices": "Compatível com todos os dispositivos",
+    "guarantee": "Garantia de reembolso de 7 dias",
+    "cta": "Começar Agora",
+    "currencySymbol": "€",
+    "currencyCode": "EUR"
+  },
+  "Footer": {
+    "tagline": "Serviços premium de subscrição de entretenimento global. Fiável, rápido e compatível com múltiplos dispositivos.",
+    "quickLinks": "Links Rápidos",
+    "legal": "Informações Legais & Termos",
+    "devices": "Guias de Configuração",
+    "copyright": "© 2026 LiveTVServices. Todos os direitos reservados."
+  },
+  "Contact": {
+    "title": "Contacte-nos",
+    "subtitle": "Tem alguma dúvida sobre compatibilidade ou configuração? Preencha o formulário ou fale connosco.",
+    "name": "Nome Completo",
+    "email": "Endereço de E-mail",
+    "message": "Sua Mensagem",
+    "submit": "Enviar Mensagem",
+    "success": "Obrigado! A sua mensagem foi enviada com sucesso. Entraremos em contacto brevemente.",
+    "placeholderName": "João Silva",
+    "placeholderEmail": "joao@example.com",
+    "placeholderMessage": "Escreva a sua mensagem aqui..."
+  },
+  "FAQ": {
+    "title": "Perguntas Frequentes",
+    "subtitle": "Obtenha respostas diretas às perguntas comuns sobre os nossos serviços de televisão global.",
+    "q1": "O que é a LiveTVServices e como funciona?",
+    "a1": "A LiveTVServices é uma subscrição IPTV premium que lhe permite transmitir canais de TV ao vivo, filmes e séries através da Internet. Apenas compra um plano, recebe credenciais de início de sessão e instala o serviço no seu dispositivo usando uma aplicação compatível.",
+    "q2": "Quais dispositivos são compatíveis com o serviço?",
+    "a2": "O nosso serviço é compatível com os principais dispositivos de streaming. Isto inclui Amazon Fire Stick, Smart TVs (Samsung, LG, Sony, Android TV), dispositivos Android (telemóveis, tablets, boxes de TV), dispositivos Apple (iPhone, iPad, Apple TV), boxes MAG e navegadores web.",
+    "q3": "Preciso de uma VPN para usar a LiveTVServices?",
+    "a3": "Não, não é necessária uma VPN para usar o nosso serviço. Utilizamos protocolos de transmissão encriptados para garantir que os seus dados permaneçam seguros. No entanto, se o seu operador de Internet local limitar o conteúdo de vídeo, uma VPN de qualidade poderá melhorar a velocidade.",
+    "q4": "Quantos canais e filmes estão incluídos?",
+    "a4": "Os nossos planos incluem acesso a mais de 18.000 canais de televisão ao vivo e mais de 80.000 títulos de vídeo sob procura (VOD). As categorias abrangem desporto, notícias, entretenimento geral, filmes, documentários, infantil e canais internacionais.",
+    "q5": "Quanto tempo demora a ativação após a compra?",
+    "a5": "A ativação é extremamente rápida. Assim que o pagamento for processado, receberá as instruções de configuração por e-mail ou WhatsApp no prazo de 5 a 15 minutos. A nossa equipa pode guiá-lo passo a passo para começar de imediato."
+  }
+}

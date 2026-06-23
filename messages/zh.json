@@ -1,0 +1,96 @@
+{
+  "Navbar": {
+    "home": "首页",
+    "pricing": "订阅价格",
+    "howItWorks": "使用教程",
+    "devices": "支持设备",
+    "channels": "频道列表",
+    "countries": "覆盖地区",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "support": "客户支持",
+    "viewPlans": "查看套餐"
+  },
+  "Hero": {
+    "headline": "优质全球 IPTV 订阅服务",
+    "subhead": "以卓越的 HD/4K 画质访问超过 18,000+ 个稳定的国际电视频道、体育直播和海量影视点播。支持在您所有的设备上流畅播放。",
+    "ctaPlans": "查看套餐",
+    "ctaWorks": "使用教程"
+  },
+  "TrustBar": {
+    "countries": "覆盖国家与地区",
+    "languages": "支持语言数",
+    "uptime": "在线率保证",
+    "support": "全天候技术支持"
+  },
+  "WhyUs": {
+    "title": "为什么选择 LiveTVServices？",
+    "subtitle": "我们为您提供无需妥协的卓越视听体验与稳定连接。",
+    "card1Title": "全球频道覆盖",
+    "card1Desc": "顺畅播放来自北美、欧洲、亚洲、拉丁美洲和中东地区的各类电视节目。",
+    "card2Title": "极致播放稳定性",
+    "card2Desc": "先进的防冻结缓冲技术，让您在观看体育赛事直播时彻底告别卡顿。",
+    "card3Title": "多设备兼容播放",
+    "card3Desc": "支持 Fire Stick、各类智能电视、安卓、iOS、MAG 电视盒以及网页浏览器。",
+    "card4Title": "专属技术支持",
+    "card4Desc": "我们经验丰富的技术团队通过 WhatsApp 为您提供 24/7 的安装与使用指导。",
+    "card5Title": "灵活合约模式",
+    "card5Desc": "无长期绑定条款。根据您的需要随时订阅，并可随时取消订阅。",
+    "card6Title": "臻享超清画质",
+    "card6Desc": "为您提供全高清 (Full HD) 以及 4K 超高清分辨率的直播与点播节目。"
+  },
+  "WhatsApp": {
+    "message": "您好 LiveTVServices！我想咨询关于您的 IPTV 订阅套餐和安装服务。"
+  },
+  "Pricing": {
+    "title": "简单透明的订阅价格",
+    "subtitle": "选择符合您娱乐需求的套餐。七天无风险退款保证。",
+    "monthly": "月度套餐",
+    "quarterly": "季度套餐",
+    "yearly": "年度套餐",
+    "featuresTitle": "套餐包含的权益",
+    "channels": "18,000+ 优质直播频道",
+    "vod": "80,000+ 海量点播电影与剧集",
+    "quality": "支持 HD、FHD 与 4K 播放",
+    "buffer": "防冻结视频流稳定引擎",
+    "support": "24/7 专属在线客户服务",
+    "devices": "完美兼容您所有的播放设备",
+    "guarantee": "7 天无理由退款保障",
+    "cta": "立即开启体验",
+    "currencySymbol": "$",
+    "currencyCode": "USD"
+  },
+  "Footer": {
+    "tagline": "优质全球娱乐订阅服务。稳定、高效、多设备兼容。",
+    "quickLinks": "快速链接",
+    "legal": "法律条款与隐私政策",
+    "devices": "安装设置指南",
+    "copyright": "© 2026 LiveTVServices. 版权所有。"
+  },
+  "Contact": {
+    "title": "联系我们",
+    "subtitle": "对设备兼容性或安装指南有疑问？填写表单或直接与我们聊天。",
+    "name": "您的姓名",
+    "email": "电子邮箱",
+    "message": "留言内容",
+    "submit": "发送留言",
+    "success": "谢谢！您的留言已成功发送。我们会尽快联系您。",
+    "placeholderName": "张伟",
+    "placeholderEmail": "zhang@example.com",
+    "placeholderMessage": "请输入您的留言..."
+  },
+  "FAQ": {
+    "title": "常见问题解答",
+    "subtitle": "为您提供关于我们全球电视服务的快速、直接的解答。",
+    "q1": "什么是 LiveTVServices？它如何工作？",
+    "a1": "LiveTVServices 是一项高品质的 IPTV 订阅服务，允许您通过互联网观看直播电视频道、电影和电视剧。您只需购买套餐，获取登录凭证，然后使用兼容的应用程序在您的设备上进行安装即可播放。",
+    "q2": "哪些设备可以与该服务兼容？",
+    "a2": "我们的服务兼容所有主流的播放设备。包括亚马逊 Fire Stick、智能电视（三星、LG、索尼、Android TV）、安卓设备（手机、平板、电视盒）、苹果设备（iPhone、iPad、Apple TV）、MAG 盒以及网页浏览器。",
+    "q3": "使用 LiveTVServices 需要 VPN 吗？",
+    "a3": "不需要，使用我们的服务无需强制连接 VPN。我们采用加密传输流来确保您的数据安全。但是，如果您的本地宽带运营商对视频流进行限速，使用优质的 VPN 可能会改善播放速度。",
+    "q4": "套餐中包含多少频道和电影？",
+    "a4": "我们的套餐包含超过 18,000+ 个直播电视频道和 80,000+ 个视频点播 (VOD) 节目。内容涵盖体育、新闻、综合娱乐、电影、纪录片、少儿节目和各类国际频道。",
+    "q5": "购买后需要多长时间完成安装？",
+    "a5": "安装过程非常迅速。您的订单处理完成后，您将在 5 到 15 分钟内通过电子邮件或 WhatsApp 收到设置指南。我们的技术团队将引导您逐步完成设置，让您立即开始观看。"
+  }
+}

@@ -1,0 +1,123 @@
+[
+  {
+    "slug": "fire-stick",
+    "name": "Amazon Fire Stick / Fire TV",
+    "icon": "MonitorPlay",
+    "intro": "The Amazon Fire Stick is the most popular device for streaming. Follow these steps to set up LiveTVServices on your Fire TV device in under 5 minutes.",
+    "steps": [
+      "Open Fire Stick home screen, go to search, and install the 'Downloader' app.",
+      "Enable Developer Options: Go to Settings > My Fire TV > About. Highlight your device name and click the select button on your remote 7 times until you see 'You are now a developer'.",
+      "Allow Unknown Apps: Go to Settings > My Fire TV > Developer Options > Install Unknown Apps. Toggle 'Downloader' to ON.",
+      "Launch 'Downloader' and enter the URL of a premium player (e.g., IPTV Smarters, XCIPTV, or TiviMate) to download and install the app.",
+      "Open the player, select 'Log in with Xtream Codes API', and enter the Username, Password, and Server URL provided in your LiveTVServices welcome email."
+    ],
+    "faqs": [
+      {
+        "q": "What is the best player for Fire Stick?",
+        "a": "TiviMate is widely considered the most advanced player for Fire Stick. IPTV Smarters (Smarters Player Lite) is also an excellent, free alternative that is very easy to set up."
+      },
+      {
+        "q": "My Fire Stick is buffering, how can I fix it?",
+        "a": "Ensure your Fire Stick has a strong Wi-Fi signal. If possible, use the 5GHz network band or an Ethernet adapter. Clearing the cache of your player app can also resolve lag."
+      }
+    ]
+  },
+  {
+    "slug": "smart-tv",
+    "name": "Smart TV (Samsung / LG / Sony)",
+    "icon": "Tv",
+    "intro": "Watch directly on your TV without external streaming sticks. We support all major Smart TVs running Tizen, webOS, Android TV, and Google TV.",
+    "steps": [
+      "Open the App Store on your Smart TV (Samsung Smart Hub, LG Content Store, or Google Play Store).",
+      "Search for and install a compatible player app. We recommend 'IPTV Smarters Pro', 'Smart IPTV', 'IBO Player', or 'Net IP TV'.",
+      "Open the app. It will either show a MAC address or ask for Xtream Codes login credentials.",
+      "If it asks for credentials: Enter the Username, Password, and Server URL sent to you by email.",
+      "If it shows a MAC address: Visit the player's activation website on your phone/computer, input the MAC address, and upload the M3U Playlist URL we sent you."
+    ],
+    "faqs": [
+      {
+        "q": "Do I have to pay for the TV player app?",
+        "a": "Some TV apps like Smart IPTV or IBO Player require a one-time activation fee (usually around €5) after a 7-day free trial. This fee goes to the app developer, not to LiveTVServices."
+      },
+      {
+        "q": "How do I load the electronic program guide (EPG)?",
+        "a": "Our M3U links and Xtream Codes include automatic EPG URLs. The TV player app will parse the guide automatically upon loading the service."
+      }
+    ]
+  },
+  {
+    "slug": "android",
+    "name": "Android Phone / Tablet / TV Box",
+    "icon": "Smartphone",
+    "intro": "Set up on any Android smartphone, tablet, or dedicated TV Box (such as Nvidia Shield or Xiaomi Mi Box) for portable or home viewing.",
+    "steps": [
+      "Open the Google Play Store on your Android device.",
+      "Search for 'Smarters Player Lite' or 'XCIPTV' and install the application.",
+      "Open the app and select 'Login with Xtream Codes API'.",
+      "Input your login details: Username, Password, and Server URL.",
+      "Click 'Add User' and wait a moment for the channel lists and VOD catalog to load."
+    ],
+    "faqs": [
+      {
+        "q": "Can I use the subscription on multiple Android devices?",
+        "a": "You can install the subscription on as many devices as you like. However, you can only stream on one device at a time unless you purchase a multi-connection package."
+      }
+    ]
+  },
+  {
+    "slug": "apple-tv-ios",
+    "name": "Apple TV / iPhone / iPad",
+    "icon": "Laptop",
+    "intro": "Stream seamlessly on iOS, iPadOS, and tvOS devices. We support high-quality Apple players that sync your playlists automatically.",
+    "steps": [
+      "Open the App Store on your Apple TV, iPhone, or iPad.",
+      "Search for 'Smarters Player Lite' or 'GSE Smart IPTV' or 'iPlayTV' and install it.",
+      "Select 'Xtream Codes API' or 'M3U Playlist' login format.",
+      "Enter the connection credentials provided by LiveTVServices.",
+      "Enjoy streaming with smooth touch and Apple remote navigation."
+    ],
+    "faqs": [
+      {
+        "q": "Is AirPlay supported?",
+        "a": "Yes! You can stream channels on your iPhone or iPad and cast them to your Apple TV or AirPlay-compatible smart television."
+      }
+    ]
+  },
+  {
+    "slug": "mag-box",
+    "name": "MAG Box / Infomir",
+    "icon": "Cpu",
+    "intro": "MAG Boxes are specialized hardware decoders designed for IPTV. We support MAG 250, 254, 322, 420, 520, and all newer models.",
+    "steps": [
+      "Send us your MAG device's MAC Address (usually starts with 00:1A:79:...) during purchase or via support chat.",
+      "Turn on your MAG box, go to Settings > System Settings > Servers > Portals.",
+      "Set Portal 1 Name to 'LiveTV' and enter the Portal URL we sent you in Portal 1 URL.",
+      "Save settings and reboot the MAG box.",
+      "The box will load our interface directly. You can now browse channels using your remote."
+    ],
+    "faqs": [
+      {
+        "q": "Why is my portal not loading on MAG?",
+        "a": "Double check that your MAC address is registered with us and that the Portal URL is entered exactly as provided, including capitals and symbols. A reboot is required to apply changes."
+      }
+    ]
+  },
+  {
+    "slug": "web-browser",
+    "name": "Web Browser (Windows / Mac)",
+    "icon": "Globe",
+    "intro": "Watch directly on your computer without installing any special software. Perfect for viewing on the go.",
+    "steps": [
+      "Open any modern web browser (Google Chrome, Mozilla Firefox, Apple Safari, or Microsoft Edge).",
+      "Navigate to the web player portal link provided in your setup email.",
+      "Enter your subscription Username and Password.",
+      "Select the TV channel, movie, or series category from the sidebar and click play."
+    ],
+    "faqs": [
+      {
+        "q": "Does browser streaming require browser plugins?",
+        "a": "No, our modern HTML5 web player works out of the box on all operating systems without any plugins or extensions."
+      }
+    ]
+  }
+]

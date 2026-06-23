@@ -1,0 +1,144 @@
+[
+  {
+    "slug": "united-states",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "intro": "LiveTVServices is the leading premium IPTV subscription provider in the United States. We offer lightning-fast CDN servers optimized specifically for major US internet service providers including Comcast Xfinity, Charter Spectrum, AT&T Fiber, and Verizon Fios, ensuring buffer-free streaming of your favorite programs.",
+    "localPaymentMethods": ["Credit Card", "PayPal", "Crypto", "Cash App"],
+    "regionalNote": "Stream high-definition broadcasts with localized server routing across East Coast, Central, and West Coast nodes.",
+    "features": [
+      "Access major US local networks and sports broadcasts lag-free.",
+      "Optimized routing for zero-throttling on Verizon, AT&T, and Comcast.",
+      "Support for popular local payment platforms."
+    ],
+    "faqs": [
+      {
+        "q": "How does IPTV work in the United States?",
+        "a": "IPTV streams live television broadcasts over your high-speed internet connection instead of a traditional cable box. LiveTVServices connects you to our high-speed server infrastructure, delivering instant channels directly to your smart TV or Fire Stick."
+      },
+      {
+        "q": "Do US internet providers block IPTV?",
+        "a": "While some ISPs occasionally throttle high-bandwidth video traffic during peak times, LiveTVServices uses encrypted transmission protocols. If throttling occurs, using a premium VPN will restore full bandwidth."
+      },
+      {
+        "q": "What payment methods do you accept in the US?",
+        "a": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, secure Cash App payments, and major cryptocurrencies (Bitcoin, USDT, Ethereum)."
+      }
+    ]
+  },
+  {
+    "slug": "united-kingdom",
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "intro": "Get the best IPTV service in the United Kingdom with LiveTVServices. Our server network is tailored to bypass ISP blocks and throttling, providing British households with stable access to international news, entertainment, and premium sports coverage.",
+    "localPaymentMethods": ["Credit Card", "Revolut", "Bank Transfer", "Crypto"],
+    "regionalNote": "Fully compatible with UK ISPs like BT Broadband, Sky Broadband, Virgin Media, and TalkTalk.",
+    "features": [
+      "Dedicated server network optimized for UK broadband networks.",
+      "Full coverage of international sports and European football cups.",
+      "Secure payment methods including direct UK bank transfers."
+    ],
+    "faqs": [
+      {
+        "q": "Is a VPN needed for IPTV in the UK?",
+        "a": "No, a VPN is not strictly required. However, during major Premier League fixtures, some UK ISPs block IP addresses. We recommend a VPN to ensure uninterrupted streaming during these periods."
+      },
+      {
+        "q": "Can I watch IPTV on my Sky Q or BT TV box?",
+        "a": "Our services run on independent apps. You can run them on any Smart TV, Fire Stick, or Android box connected to the same television."
+      }
+    ]
+  },
+  {
+    "slug": "canada",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "intro": "Enjoy stable, high-definition IPTV in Canada with servers optimized for Rogers, Bell, Shaw, and Telus networks. LiveTVServices brings you global television channels, multilingual broadcasts, and full VOD libraries without the high cost of Canadian cable TV.",
+    "localPaymentMethods": ["Credit Card", "Interac e-Transfer", "PayPal", "Crypto"],
+    "regionalNote": "Bilingual support available (English and French). Fast Interac e-Transfer activation.",
+    "features": [
+      "Bilingual channel categorization and regional Canadian feeds.",
+      "Optimized Canadian CDN nodes in Toronto, Montreal, and Vancouver.",
+      "Interac e-Transfer payment support for instant account setup."
+    ],
+    "faqs": [
+      {
+        "q": "How fast should my Canadian internet be for IPTV?",
+        "a": "We recommend a minimum download speed of 15 Mbps for standard HD streams, and 25-50 Mbps for full 4K UHD broadcasts."
+      },
+      {
+        "q": "Is Interac e-Transfer accepted?",
+        "a": "Yes! We support Interac e-Transfer for Canadian customers. Simply select it at checkout, send the payment, and your account will be activated immediately."
+      }
+    ]
+  },
+  {
+    "slug": "australia",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "intro": "Experience buffer-free global TV streaming across Australia. LiveTVServices provides premium IPTV connections optimized for NBN broadband, Telstra, Optus, and TPG networks, ensuring high-quality playback even with local latency variations.",
+    "localPaymentMethods": ["Credit Card", "PayPal", "Wise", "Crypto"],
+    "regionalNote": "Low-latency Oceania CDN nodes to guarantee stable streams for Australian viewers.",
+    "features": [
+      "Oceania servers for minimal ping and ultra-fast channel zapping.",
+      "Full coverage of international rugby, cricket, and motorsport events.",
+      "Easy configuration for Australian Smart TVs and Fire Sticks."
+    ],
+    "faqs": [
+      {
+        "q": "Does the service work on the Australian NBN network?",
+        "a": "Yes, our service is fully compatible with all NBN speed tiers. A standard NBN 25 connection is more than sufficient for multiple simultaneous HD streams."
+      },
+      {
+        "q": "Are Australian timezones supported in the guide?",
+        "a": "Yes, our Electronic Program Guide (EPG) automatically syncs with your device's local Australian timezone."
+      }
+    ]
+  },
+  {
+    "slug": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "intro": "تقدم LiveTVServices خدمة IPTV ممتازة في المملكة العربية السعودية مع خوادم محلية سريعة تدعم شبكات STC وموبايلي وزين. استمتع بأكثر من 18,000 قناة تلفزيونية، مباريات كرة القدم العالمية، ومكتبة أفلام ومسلسلات ضخمة مع دعم كامل للغة العربية.",
+    "localPaymentMethods": ["Mada", "Credit Card", "Apple Pay", "Crypto"],
+    "regionalNote": "خوادم مخصصة للشرق الأوسط لضمان استقرار البث دون تقطيع. متوافق مع بطاقات مدى.",
+    "features": [
+      "دعم كامل للدفع عبر بطاقات مدى (Mada) وأبل باي (Apple Pay).",
+      "قنوات عربية وعالمية مصنفة بشكل احترافي.",
+      "سرعة استجابة فائقة بفضل الخوادم المحلية في الخليج العربي."
+    ],
+    "faqs": [
+      {
+        "q": "هل خدمة IPTV تعمل بشكل جيد في السعودية؟",
+        "a": "نعم، تعمل الخدمة بكفاءة عالية على شبكات الألياف البصرية و 5G في المملكة العربية السعودية. نوفر خوادم محلية قريبة لضمان استقرار البث."
+      },
+      {
+        "q": "هل يمكن الدفع عن طريق بطاقة مدى؟",
+        "a": "نعم، نقبل الدفع بالريال السعودي عبر بطاقات مدى (Mada) وبطاقات الائتمان وأبل باي لتسهيل عملية الاشتراك."
+      }
+    ]
+  },
+  {
+    "slug": "united-arab-emirates",
+    "name": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "intro": "Enjoy high-end IPTV in the UAE. LiveTVServices offers premium channels and VOD with ultra-fast servers that run smoothly on Etisalat and du networks, giving you access to global entertainment and live sports directly on your Smart TV or mobile device.",
+    "localPaymentMethods": ["Credit Card", "Apple Pay", "PayPal", "Crypto"],
+    "regionalNote": "Gulf regional CDN nodes optimized for high-speed fiber networks in Dubai and Abu Dhabi.",
+    "features": [
+      "Optimized routing for Etisalat and du fiber broadband.",
+      "Premium customer support available in English and Arabic.",
+      "Secure instant activation with Apple Pay."
+    ],
+    "faqs": [
+      {
+        "q": "Does LiveTVServices work on du and Etisalat in the UAE?",
+        "a": "Yes, our streams are fully optimized for both du and Etisalat networks, utilizing advanced video protocols to ensure stable connections."
+      },
+      {
+        "q": "Is the activation immediate for UAE customers?",
+        "a": "Yes, once payment is processed via credit card or Apple Pay, setup details are dispatched via WhatsApp/Email within 10 minutes."
+      }
+    ]
+  }
+]

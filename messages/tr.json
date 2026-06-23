@@ -1,0 +1,96 @@
+{
+  "Navbar": {
+    "home": "Anasayfa",
+    "pricing": "Fiyatlandırma",
+    "howItWorks": "Nasıl Çalışır",
+    "devices": "Cihazlar",
+    "channels": "Kanallar",
+    "countries": "Bölgeler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "support": "Destek",
+    "viewPlans": "Planları Gör"
+  },
+  "Hero": {
+    "headline": "Premium Global IPTV Abonelik Hizmetleri",
+    "subhead": "Muhteşem HD/4K kalitesinde 18.000'den fazla kararlı uluslararası kanala, canlı spor yayınlarına ve seç-izle (VOD) içeriklere erişin. Tüm cihazlarınızda güvenle izleyin.",
+    "ctaPlans": "Planları Gör",
+    "ctaWorks": "Nasıl Çalışır"
+  },
+  "TrustBar": {
+    "countries": "Kapsanan Ülkeler",
+    "languages": "Desteklenen Diller",
+    "uptime": "Kesintisiz Yayın Garantisi",
+    "support": "Aktif Destek"
+  },
+  "WhyUs": {
+    "title": "Neden LiveTVServices'ı Seçmelisiniz?",
+    "subtitle": "Taviz vermeden birinci sınıf bir eğlence deneyimi sunuyoruz.",
+    "card1Title": "Global Kapsama Alanı",
+    "card1Desc": "Kuzey Amerika, Avrupa, Asya, Latin Amerika ve Orta Doğu'dan kanalları izleyin.",
+    "card2Title": "Güvenilir Yayın Stabilitesi",
+    "card2Desc": "Donma önleyici önbellek teknolojisi, canlı spor yayınlarında takılmaları önler.",
+    "card3Title": "Çoklu Cihaz Senkronizasyonu",
+    "card3Desc": "Fire Stick, Smart TV'ler, Android, iOS, MAG kutuları ve web tarayıcılarıyla uyumludur.",
+    "card4Title": "Özel Destek",
+    "card4Desc": "Deneyimli teknik ekibimiz kurulum ve yardım için WhatsApp üzerinden 7/24 hizmetinizdedir.",
+    "card5Title": "Esnek Sözleşmeler",
+    "card5Desc": "Uzun vadeli taahhütler yok. Size uyan bir plan seçin, istediğiniz zaman iptal edin.",
+    "card6Title": "Premium Kalite",
+    "card6Desc": "Canlı programları ve seç-izle videoları Full HD ve 4K çözünürlüklerde izleyin."
+  },
+  "WhatsApp": {
+    "message": "Merhaba LiveTVServices! IPTV abonelik planlarınız hakkında bilgi almak istiyorum."
+  },
+  "Pricing": {
+    "title": "Basit ve Şeffaf Fiyatlandırma Planları",
+    "subtitle": "Eğlence ihtiyaçlarınıza en uygun paketi seçin. Risksiz iade garantisi.",
+    "monthly": "Aylık Plan",
+    "quarterly": "Üç Aylık Plan",
+    "yearly": "Yıllık Plan",
+    "featuresTitle": "Dahil Olan Özellikler",
+    "channels": "18.000'den Fazla Premium Canlı Kanal",
+    "vod": "80.000'den Fazla Seç-İzle Film ve Dizi",
+    "quality": "HD, FHD ve 4K Yayın Kalitesi",
+    "buffer": "Donma Önleyici Yayın Sabitleme Motoru",
+    "support": "7/24 Özel Müşteri Desteği",
+    "devices": "Tüm Cihazlarla Uyumlu",
+    "guarantee": "7 Gün Para İade Garantisi",
+    "cta": "Hemen Başla",
+    "currencySymbol": "$",
+    "currencyCode": "USD"
+  },
+  "Footer": {
+    "tagline": "Premium global eğlence abonelik hizmetleri. Güvenilir, hızlı ve çoklu cihaz uyumlu.",
+    "quickLinks": "Hızlı Bağlantılar",
+    "legal": "Yasal ve Şartlar",
+    "devices": "Kurulum Kılavuzları",
+    "copyright": "© 2026 LiveTVServices. Tüm hakları saklıdır."
+  },
+  "Contact": {
+    "title": "Bizimle İletişime Geçin",
+    "subtitle": "Uyumluluk veya kurulumla ilgili bir sorunuz mu var? Formu doldurun veya doğrudan bizimle sohbet edin.",
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "message": "Mesajınız",
+    "submit": "Mesajı Gönder",
+    "success": "Teşekkürler! Mesajınız başarıyla gönderildi. Yakında sizinle iletişime geçeceğiz.",
+    "placeholderName": "Ahmet Yılmaz",
+    "placeholderEmail": "ahmet@example.com",
+    "placeholderMessage": "Mesajınızı buraya yazın..."
+  },
+  "FAQ": {
+    "title": "Sıkça Sorulan Sorular",
+    "subtitle": "Dünya çapındaki televizyon hizmetlerimizle ilgili yaygın sorulara doğrudan yanıtlar alın.",
+    "q1": "LiveTVServices nedir ve nasıl çalışır?",
+    "a1": "LiveTVServices, internet üzerinden canlı televizyon kanallarını, filmleri ve dizileri izlemenizi sağlayan premium bir IPTV aboneliğidir. Bir plan satın alır, giriş bilgilerinizi alır ve uyumlu bir uygulama kullanarak hizmeti cihazınıza kurarsınız.",
+    "q2": "Hangi cihazlar hizmetle uyumludur?",
+    "a2": "Hizmetimiz tüm popüler yayın cihazlarıyla uyumludur. Buna Amazon Fire Stick, Smart TV'ler (Samsung, LG, Sony, Android TV), Android cihazlar (telefonlar, tabletler, TV kutuları), Apple cihazları (iPhone, iPad, Apple TV), MAG kutuları ve web tarayıcıları dahildir.",
+    "q3": "LiveTVServices kullanmak için VPN'e ihtiyacım var mı?",
+    "a3": "Hayır, hizmetimizi kullanmak için VPN gerekli değildir. Verilerinizin güvende kalmasını sağlamak için şifreli yayın protokolleri kullanıyoruz. Ancak yerel internet servis sağlayıcınız video hızını sınırlıyorsa, kaliteli bir VPN hızı artırabilir.",
+    "q4": "Kaç kanal ve film dahildir?",
+    "a4": "Planlarımız 18.000'den fazla canlı televizyon kanalına ve 80.000'den fazla seç-izle (VOD) içeriğe erişim içerir. İçerik kategorileri spor, haber, genel eğlence, sinema, belgesel, çocuk programları ve uluslararası kanalları kapsar.",
+    "q5": "Satın alma işleminden sonra kurulum ne kadar sürer?",
+    "a5": "Kurulum son derece hızlıdır. Siparişiniz onaylandıktan sonra 5 ila 15 dakika içinde e-posta veya WhatsApp yoluyla kurulum talimatlarını alırsınız. Ekibimiz yayını hemen başlatmanız için adım adım rehberlik edebilir."
+  }
+}

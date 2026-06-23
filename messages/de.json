@@ -1,0 +1,96 @@
+{
+  "Navbar": {
+    "home": "Startseite",
+    "pricing": "Preise",
+    "howItWorks": "Wie es funktioniert",
+    "devices": "Geräte",
+    "channels": "Sender",
+    "countries": "Regionen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "support": "Support",
+    "viewPlans": "Tarife ansehen"
+  },
+  "Hero": {
+    "headline": "Premium globale IPTV-Abonnementdienste",
+    "subhead": "Greifen Sie auf über 18.000 stabile internationale Sender, Live-Sport und Video-on-Demand in beeindruckendem HD/4K zu. Zuverlässiges Streaming auf all Ihren Geräten.",
+    "ctaPlans": "Tarife ansehen",
+    "ctaWorks": "Wie es funktioniert"
+  },
+  "TrustBar": {
+    "countries": "Abgedeckte Länder",
+    "languages": "Unterstützte Sprachen",
+    "uptime": "Uptime-Garantie",
+    "support": "Aktiver Support"
+  },
+  "WhyUs": {
+    "title": "Warum LiveTVServices wählen?",
+    "subtitle": "Wir bieten ein erstklassiges Unterhaltungserlebnis ohne Kompromisse.",
+    "card1Title": "Globale Abdeckung",
+    "card1Desc": "Streamen Sie Sender aus Nordamerika, Europa, Asien, Lateinamerika und dem Nahen Osten.",
+    "card2Title": "Zuverlässige Stabilität",
+    "card2Desc": "Anti-Freeze-Puffertechnologie verhindert Verzögerungen bei Live-Sportübertragungen.",
+    "card3Title": "Multi-Geräte-Synchronisierung",
+    "card3Desc": "Kompatibel mit Fire Stick, Smart-TVs, Android, iOS, MAG-Boxen und Webbrowsern.",
+    "card4Title": "Engagierter Support",
+    "card4Desc": "Unser erfahrenes technisches Team steht Ihnen rund um die Uhr auf WhatsApp für Einrichtung und Hilfe zur Verfügung.",
+    "card5Title": "Flexible Verträge",
+    "card5Desc": "Keine langfristigen Verpflichtungen. Wählen Sie einen flexiblen Tarif, kündigen Sie jederzeit.",
+    "card6Title": "Premium-Qualität",
+    "card6Desc": "Sehen Sie Live-Programme und Video-on-Demand in Full HD- und 4K-Auflösung."
+  },
+  "WhatsApp": {
+    "message": "Hallo LiveTVServices! Ich möchte Informationen über Ihre IPTV-Abonnements erhalten."
+  },
+  "Pricing": {
+    "title": "Einfache und transparente Tarife",
+    "subtitle": "Wählen Sie das Paket, das Ihren Unterhaltungsbedürfnissen entspricht. Risikofreie Garantie.",
+    "monthly": "Monatstarif",
+    "quarterly": "Quartalstarif",
+    "yearly": "Jahrestarif",
+    "featuresTitle": "Inklusive Leistungen",
+    "channels": "Über 18.000 Premium-Live-Sender",
+    "vod": "Über 80.000 VOD-Filme & Serien",
+    "quality": "HD, FHD & 4K Streaming-Qualität",
+    "buffer": "Anti-Freeze-Stabilisierungs-Engine",
+    "support": "Engagierter Kundensupport rund um die Uhr",
+    "devices": "Kompatibel mit allen Geräten",
+    "guarantee": "7 Tage Geld-zurück-Garantie",
+    "cta": "Jetzt starten",
+    "currencySymbol": "€",
+    "currencyCode": "EUR"
+  },
+  "Footer": {
+    "tagline": "Premium globale Unterhaltungs-Abonnementdienste. Zuverlässig, schnell und kompatibel mit mehreren Geräten.",
+    "quickLinks": "Schnellzugriff",
+    "legal": "Rechtliches & Bedingungen",
+    "devices": "Einrichtungsanleitungen",
+    "copyright": "© 2026 LiveTVServices. Alle Rechte vorbehalten."
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie Fragen zur Kompatibilität oder Einrichtung? Nutzen Sie das Formular oder chatten Sie direkt.",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "message": "Ihre Nachricht",
+    "submit": "Nachricht senden",
+    "success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns in Kürze bei Ihnen.",
+    "placeholderName": "Max Mustermann",
+    "placeholderEmail": "max@example.com",
+    "placeholderMessage": "Schreiben Sie Ihre Nachricht hier..."
+  },
+  "FAQ": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Erhalten Sie direkte Antworten auf häufige Fragen zu unseren weltweiten Fernsehdiensten.",
+    "q1": "Was ist LiveTVServices und wie funktioniert es?",
+    "a1": "LiveTVServices ist ein Premium-IPTV-Abonnement, mit dem Sie Live-TV-Sender, Filme und Serien über das Internet streamen können. Sie kaufen einfach einen Tarif, erhalten Zugangsdaten und installieren unseren Dienst auf Ihrem Gerät mit einer kompatiblen App.",
+    "q2": "Welche Geräte sind mit dem Dienst kompatibel?",
+    "a2": "Unser Dienst ist mit allen gängigen Streaming-Geräten kompatibel. Dazu gehören Amazon Fire Stick, Smart-TVs (Samsung, LG, Sony, Android TV), Android-Geräte (Smartphones, Tablets, TV-Boxen), Apple-Geräte (iPhone, iPad, Apple TV), MAG-Boxen und Webbrowser.",
+    "q3": "Benötige ich ein VPN, um LiveTVServices zu nutzen?",
+    "a3": "Nein, für die Nutzung unseres Dienstes ist kein VPN erforderlich. Wir nutzen verschlüsselte Streaming-Protokolle, um Ihre Daten zu schützen. Wenn Ihr lokaler Internetanbieter jedoch Video-Inhalte drosselt, kann ein hochwertiges VPN die Geschwindigkeit verbessern.",
+    "q4": "Wie viele Sender und Filme sind enthalten?",
+    "a4": "Unsere Tarife enthalten Zugriff auf über 18.000 Live-TV-Sender und über 80.000 Video-on-Demand-Titel (VOD). Zu den Kategorien gehören Sport, Nachrichten, Unterhaltung, Filme, Dokumentationen, Kinderprogramme und internationale Sender.",
+    "q5": "Wie lange dauert die Einrichtung nach dem Kauf?",
+    "a5": "Die Einrichtung ist extrem schnell. Nach Bearbeitung Ihrer Bestellung erhalten Sie die Einrichtungsanweisungen per E-Mail oder WhatsApp innerhalb von 5 bis 15 Minuten. Unser Team kann Sie Schritt für Schritt anleiten."
+  }
+}

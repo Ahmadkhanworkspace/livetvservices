@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "english",
+    "name": "English",
+    "channelsCount": "5,000+",
+    "regions": ["USA", "UK", "Canada", "Australia", "New Zealand"],
+    "intro": "Watch premium English language broadcasts including live news, localized sports events, network channels, and international series with multi-audio tracks.",
+    "popularCategories": ["Premier League Live", "US Network TV", "UK News", "Hollywood VOD Movies"]
+  },
+  {
+    "slug": "spanish",
+    "name": "Spanish (Español)",
+    "channelsCount": "3,000+",
+    "regions": ["Spain", "Mexico", "Argentina", "Colombia", "USA Hispano"],
+    "intro": "Transmita canales en español de alta calidad con cobertura completa de La Liga, televisión nacional de España y canales populares de América Latina.",
+    "popularCategories": ["La Liga en vivo", "Telenovelas", "Canales de España", "Latinoamérica Mix"]
+  },
+  {
+    "slug": "french",
+    "name": "French (Français)",
+    "channelsCount": "2,500+",
+    "regions": ["France", "Belgium", "Switzerland", "Canada (Québec)", "Africa"],
+    "intro": "Accédez au meilleur de la télévision francophone : informations en continu, cinéma français, Ligue 1 et divertissement pour toute la famille.",
+    "popularCategories": ["Ligue 1 en direct", "Cinéma Français", "TNT de France", "Chaînes du Québec"]
+  },
+  {
+    "slug": "german",
+    "name": "German (Deutsch)",
+    "channelsCount": "1,800+",
+    "regions": ["Germany", "Austria", "Switzerland"],
+    "intro": "Streamen Sie deutschsprachige Sender in bester Qualität, inklusive Bundesliga-Live-Übertragungen, öffentlich-rechtlichen Programmen und Dokumentationen.",
+    "popularCategories": ["Bundesliga Live", "Deutsche Hauptsender", "Schweiz & Österreich Mix", "Doku-Kanäle"]
+  },
+  {
+    "slug": "arabic",
+    "name": "Arabic (العربية)",
+    "channelsCount": "3,500+",
+    "regions": ["Saudi Arabia", "UAE", "Egypt", "Gulf", "North Africa"],
+    "intro": "شاهد باقة واسعة من القنوات العربية الإخبارية والترفيهية والرياضية، بالإضافة إلى أحدث المسلسلات والأفلام العربية والخليجية بجودة عالية.",
+    "popularCategories": ["دوري روشن السعودي", "قنوات MBC وروتانا", "الأخبار العربية", "مسلسلات رمضان"]
+  },
+  {
+    "slug": "turkish",
+    "name": "Turkish (Türkçe)",
+    "channelsCount": "1,200+",
+    "regions": ["Turkey", "Germany", "Cyprus"],
+    "intro": "Türkiye'nin en popüler ulusal kanallarını, Süper Lig özetlerini, sevilen Türk dizilerini ve belgesel yayınlarını kesintisiz izleyin.",
+    "popularCategories": ["Süper Lig Yayınları", "Ulusal Kanallar", "Türk Dizileri", "Haber Kanalları"]
+  }
+]
