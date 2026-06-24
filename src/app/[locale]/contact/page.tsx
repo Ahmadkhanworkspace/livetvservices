@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Mail, MessageSquare, ShieldCheck, Send } from "lucide-react";
+import { useWhatsApp } from "@/hooks/useWhatsApp";
 
 export default function ContactPage() {
   const t = useTranslations("Contact");
@@ -13,7 +14,7 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const whatsappNumber = "447828932728";
+  const { whatsappUrl, getCustomUrl } = useWhatsApp("Hello LiveTVServices! I have a question regarding configuration or compatibility.");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -21,7 +22,7 @@ export default function ContactPage() {
 
     setLoading(true);
     const textMessage = `Hello LiveTVServices! My details:\nName: ${name}\nEmail: ${email}\n\nMessage: ${message}`;
-    const customWhatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(textMessage)}`;
+    const customWhatsappUrl = getCustomUrl(textMessage);
     
     // Open in a new tab
     window.open(customWhatsappUrl, "_blank");
@@ -34,10 +35,6 @@ export default function ContactPage() {
       setMessage("");
     }, 500);
   };
-
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-    "Hello LiveTVServices! I have a question regarding configuration or compatibility."
-  )}`;
 
   return (
     <div className="pt-32 pb-20 relative">

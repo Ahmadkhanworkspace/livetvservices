@@ -3,13 +3,13 @@
 import { useTranslations } from "next-intl";
 import { Check, ShieldCheck, AlertCircle, HelpCircle, ChevronDown } from "lucide-react";
 import { useState } from "react";
+import { useWhatsApp } from "@/hooks/useWhatsApp";
 
 export default function PricingPage() {
   const t = useTranslations();
   const [activeFaq, setActiveFaq] = useState<number | null>(null);
   
-  const whatsappNumber = "447828932728";
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(t("WhatsApp.message"))}`;
+  const { whatsappUrl } = useWhatsApp(t("WhatsApp.message"));
 
   const plans = [
     {

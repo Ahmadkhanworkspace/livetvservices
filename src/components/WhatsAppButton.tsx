@@ -3,13 +3,12 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { MessageSquareDot } from "lucide-react";
+import { useWhatsApp } from "@/hooks/useWhatsApp";
 
 export default function WhatsAppButton({ locale }: { locale: string }) {
   const t = useTranslations("WhatsApp");
-  const phoneNumber = "447828932728"; // User specified number
   const messageText = t("message");
-  const encodedMessage = encodeURIComponent(messageText);
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  const { whatsappUrl } = useWhatsApp(messageText);
 
   return (
     <div className="fixed bottom-6 right-6 md:bottom-8 md:right-8 z-40 flex items-center justify-center">

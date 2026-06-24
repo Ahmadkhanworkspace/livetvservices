@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Link } from "@/i18n/routing";
 import { CheckCircle2, ChevronRight, HelpCircle, ArrowLeft, Tv, MessageSquare } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import { getWhatsappNumber } from "@/app/api/whatsapp/route";
 
 export async function generateStaticParams() {
   return devices.map((d) => ({
@@ -23,7 +24,7 @@ export default async function DeviceDetailPage({
   }
 
   const t = await getTranslations({ locale });
-  const whatsappNumber = "447828932728";
+  const whatsappNumber = await getWhatsappNumber();
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     t("WhatsApp.message") + " [Device: " + device.name + "]"
   )}`;

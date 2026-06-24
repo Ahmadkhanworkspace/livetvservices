@@ -8,6 +8,7 @@ import {
   Check, ArrowRight, ShieldCheck, Zap, Activity, HelpCircle, Star, MessageSquare, ChevronDown 
 } from "lucide-react";
 import { motion } from "framer-motion";
+import { useWhatsApp } from "@/hooks/useWhatsApp";
 
 export default function HomePage({ params }: { params: any }) {
   const t = useTranslations();
@@ -95,8 +96,7 @@ export default function HomePage({ params }: { params: any }) {
     setActiveFaq(activeFaq === index ? null : index);
   };
 
-  const whatsappNumber = "447828932728";
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(t("WhatsApp.message"))}`;
+  const { whatsappUrl } = useWhatsApp(t("WhatsApp.message"));
 
   return (
     <div className="relative overflow-hidden pt-20">

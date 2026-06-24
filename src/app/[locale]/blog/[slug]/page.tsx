@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Link } from "@/i18n/routing";
 import { ArrowLeft, Clock, Calendar, MessageSquare, BookOpen } from "lucide-react";
 import { getTranslations } from "next-intl/server";
+import { getWhatsappNumber } from "@/app/api/whatsapp/route";
 
 export async function generateStaticParams() {
   return blogs.map((b) => ({
@@ -23,7 +24,7 @@ export default async function BlogDetailPage({
   }
 
   const t = await getTranslations({ locale });
-  const whatsappNumber = "447828932728";
+  const whatsappNumber = await getWhatsappNumber();
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     t("WhatsApp.message") + " [Blog: " + post.title + "]"
   )}`;

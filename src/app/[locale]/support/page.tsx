@@ -1,11 +1,11 @@
+"use client";
+
 import { Link } from "@/i18n/routing";
 import { HelpCircle, MessageSquare, ShieldAlert, Cpu, Sparkles } from "lucide-react";
+import { useWhatsApp } from "@/hooks/useWhatsApp";
 
 export default function SupportPage() {
-  const whatsappNumber = "447828932728";
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-    "Hello LiveTVServices support team! I need assistance with setup or activation of my subscription."
-  )}`;
+  const { whatsappUrl } = useWhatsApp("Hello LiveTVServices support team! I need assistance with setup or activation of my subscription.");
 
   return (
     <div className="pt-32 pb-20 relative">

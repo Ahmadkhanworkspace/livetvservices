@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import "../globals.css";
+import { getWhatsappNumber } from "@/app/api/whatsapp/route";
 
 const sansFont = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -75,6 +76,7 @@ export default async function LocaleLayout({
   // Get messages for NextIntlClientProvider
   const messages = await getMessages();
   const isRtl = locale === "ar" || locale === "ur";
+  const whatsappNumber = await getWhatsappNumber();
 
   const globalSchema = {
     "@context": "https://schema.org",
@@ -84,7 +86,7 @@ export default async function LocaleLayout({
     "logo": "https://livetvservices.com/logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+447828932728",
+      "telephone": `+${whatsappNumber}`,
       "contactType": "customer support",
       "availableLanguage": ["en", "es", "fr", "de", "pt", "ar", "hi", "ur", "tr", "it", "ru", "zh"]
     }
