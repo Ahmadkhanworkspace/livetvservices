@@ -8,22 +8,26 @@ const DEFAULT_PASSWORD = "Admin123!"; // Default fallback if no env variable is 
 
 // Lazy import @vercel/kv to prevent local import issues if not initialized
 async function getStorage() {
-  if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-    const { kv } = await import("@vercel/kv");
-    return kv;
+  try {
+    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+      const { kv } = await import("@vercel/kv");
+      return kv;
+    }
+  } catch (e) {
+    console.error("Failed to load or import @vercel/kv:", e);
   }
   return null;
 }
 
 export async function getWhatsappNumber() {
-  const kv = await getStorage();
-  if (kv) {
-    try {
+  try {
+    const kv = await getStorage();
+    if (kv) {
       const stored = await kv.get("whatsapp_number");
       if (stored) return stored as string;
-    } catch (e) {
-      console.error("Failed to read from Vercel KV, falling back to local file:", e);
     }
+  } catch (e) {
+    console.error("Failed to read from Vercel KV, falling back to local file:", e);
   }
   
   // Local file fallback
@@ -32,20 +36,22 @@ export async function getWhatsappNumber() {
       const data = JSON.parse(fs.readFileSync(LOCAL_DATA_PATH, "utf8"));
       return data.number || DEFAULT_NUMBER;
     }
-  } catch (e) {}
+  } catch (e) {
+    console.error("Failed to read from local file fallback:", e);
+  }
   
   return DEFAULT_NUMBER;
 }
 
 async function saveWhatsappNumber(newNumber: string) {
-  const kv = await getStorage();
-  if (kv) {
-    try {
+  try {
+    const kv = await getStorage();
+    if (kv) {
       await kv.set("whatsapp_number", newNumber);
       return true;
-    } catch (e) {
-      console.error("Failed to write to Vercel KV, falling back to local file:", e);
     }
+  } catch (e) {
+    console.error("Failed to write to Vercel KV, falling back to local file:", e);
   }
 
   // Local file fallback
@@ -57,6 +63,7 @@ async function saveWhatsappNumber(newNumber: string) {
     fs.writeFileSync(LOCAL_DATA_PATH, JSON.stringify({ number: newNumber }), "utf8");
     return true;
   } catch (e) {
+    console.error("Failed to write to local file fallback:", e);
     return false;
   }
 }
