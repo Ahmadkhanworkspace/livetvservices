@@ -9,9 +9,21 @@ const DEFAULT_PASSWORD = "Admin123!"; // Default fallback if no env variable is 
 // Lazy import @vercel/kv to prevent local import issues if not initialized
 async function getStorage() {
   try {
-    if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-      const { kv } = await import("@vercel/kv");
-      return kv;
+    const url = 
+      process.env.KV_REST_API_URL || 
+      process.env.UPSTASH_REDIS_REST_URL || 
+      process.env.STORAGE_REST_API_URL ||
+      process.env.REDIS_REST_API_URL;
+
+    const token = 
+      process.env.KV_REST_API_TOKEN || 
+      process.env.UPSTASH_REDIS_REST_TOKEN || 
+      process.env.STORAGE_REST_API_TOKEN ||
+      process.env.REDIS_REST_API_TOKEN;
+
+    if (url && token) {
+      const { createClient } = await import("@vercel/kv");
+      return createClient({ url, token });
     }
   } catch (e) {
     console.error("Failed to load or import @vercel/kv:", e);
