@@ -9,17 +9,35 @@ const DEFAULT_PASSWORD = "Admin123!"; // Default fallback if no env variable is 
 // Lazy import @vercel/kv to prevent local import issues if not initialized
 async function getStorage() {
   try {
-    const url = 
+    let url = 
       process.env.KV_REST_API_URL || 
       process.env.UPSTASH_REDIS_REST_URL || 
       process.env.STORAGE_REST_API_URL ||
       process.env.REDIS_REST_API_URL;
 
-    const token = 
+    let token = 
       process.env.KV_REST_API_TOKEN || 
       process.env.UPSTASH_REDIS_REST_TOKEN || 
       process.env.STORAGE_REST_API_TOKEN ||
       process.env.REDIS_REST_API_TOKEN;
+
+    // Fallback: Parse from KV_REDIS_URL or REDIS_URL if REST variables are missing
+    if (!url || !token) {
+      const redisUrl = process.env.KV_REDIS_URL || process.env.REDIS_URL;
+      if (redisUrl) {
+        try {
+          const parsed = new URL(redisUrl);
+          const host = parsed.hostname;
+          const password = parsed.password || parsed.username;
+          if (host && password) {
+            url = `https://${host}`;
+            token = password;
+          }
+        } catch (err) {
+          console.error("Failed to parse KV_REDIS_URL:", err);
+        }
+      }
+    }
 
     if (url && token) {
       const { createClient } = await import("@vercel/kv");
