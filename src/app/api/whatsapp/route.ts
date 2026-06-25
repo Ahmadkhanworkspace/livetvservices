@@ -6,45 +6,44 @@ const LOCAL_DATA_PATH = path.join(process.cwd(), "src/data/whatsapp.json");
 const DEFAULT_NUMBER = "447828932728";
 const DEFAULT_PASSWORD = "Admin123!"; // Default fallback if no env variable is set
 
-// Lazy import @vercel/kv to prevent local import issues if not initialized
+let cachedStorage: any = null;
+
+// Lazy import @vercel/kv or ioredis to prevent local import issues if not initialized
 async function getStorage() {
+  if (cachedStorage) return cachedStorage;
+
   try {
-    let url = 
+    // 1. Check REST environment variables (Vercel KV or Upstash REST)
+    const restUrl = 
       process.env.KV_REST_API_URL || 
       process.env.UPSTASH_REDIS_REST_URL || 
       process.env.STORAGE_REST_API_URL ||
       process.env.REDIS_REST_API_URL;
 
-    let token = 
+    const restToken = 
       process.env.KV_REST_API_TOKEN || 
       process.env.UPSTASH_REDIS_REST_TOKEN || 
       process.env.STORAGE_REST_API_TOKEN ||
       process.env.REDIS_REST_API_TOKEN;
 
-    // Fallback: Parse from KV_REDIS_URL or REDIS_URL if REST variables are missing
-    if (!url || !token) {
-      const redisUrl = process.env.KV_REDIS_URL || process.env.REDIS_URL;
-      if (redisUrl) {
-        try {
-          const parsed = new URL(redisUrl);
-          const host = parsed.hostname;
-          const password = parsed.password || parsed.username;
-          if (host && password) {
-            url = `https://${host}`;
-            token = password;
-          }
-        } catch (err) {
-          console.error("Failed to parse KV_REDIS_URL:", err);
-        }
-      }
+    if (restUrl && restToken) {
+      const { createClient } = await import("@vercel/kv");
+      cachedStorage = createClient({ url: restUrl, token: restToken });
+      return cachedStorage;
     }
 
-    if (url && token) {
-      const { createClient } = await import("@vercel/kv");
-      return createClient({ url, token });
+    // 2. Check TCP environment variables (Upstash Redis TCP)
+    const redisUrl = process.env.KV_REDIS_URL || process.env.REDIS_URL;
+    if (redisUrl) {
+      const { default: Redis } = await import("ioredis");
+      cachedStorage = new Redis(redisUrl, {
+        connectTimeout: 5000,
+        maxRetriesPerRequest: 1,
+      });
+      return cachedStorage;
     }
   } catch (e) {
-    console.error("Failed to load or import @vercel/kv:", e);
+    console.error("Failed to load or import storage client:", e);
   }
   return null;
 }
