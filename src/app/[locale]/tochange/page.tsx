@@ -38,7 +38,7 @@ export default function ToChangePage() {
     fetch("/api/whatsapp", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ password, number: "0000000000" }), // test dummy number
+      body: JSON.stringify({ password, checkOnly: true }),
     })
       .then(async (res) => {
         if (res.status === 400 || res.status === 200 || res.status === 500) {

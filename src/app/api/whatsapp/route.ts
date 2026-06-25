@@ -104,11 +104,15 @@ export async function GET() {
 
 export async function POST(req: Request) {
   try {
-    const { password, number: newNumber } = await req.json();
+    const { password, number: newNumber, checkOnly } = await req.json();
     const correctPassword = process.env.ADMIN_PASSWORD || DEFAULT_PASSWORD;
 
     if (password !== correctPassword) {
       return NextResponse.json({ error: "Invalid password" }, { status: 401 });
+    }
+
+    if (checkOnly) {
+      return NextResponse.json({ success: true });
     }
 
     if (!newNumber || newNumber.length < 7) {
