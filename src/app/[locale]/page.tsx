@@ -56,7 +56,7 @@ export default function HomePage({ params }: { params: any }) {
     },
     {
       name: t("Pricing.yearly"),
-      price: "59.99",
+      price: "54.99",
       period: "/ 12 months",
       desc: "Save over 60% with full year access.",
       popular: false,
